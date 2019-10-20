@@ -52,6 +52,16 @@ elif(p1 == "Paper"):
     else:
         print("draw")
 
+else:
+    if (p2 == "Paper"):
+        print("player 1 win.")   #Player 1 chose " +  choice_name + "and player 2 chose" + comp_choice_name)
+    elif(p2 =="Rock"):
+        print("p2 win")
+    else:
+        print("draw")
+        
+        
+        
 '''
 elif (p1 == "Rock" and p2 == "Scissor"):
     print("player 1 wins. Player 1 chose " +  choice_name + "and player 2 chose" + comp_choice_name)

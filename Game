@@ -17,7 +17,7 @@ elif p1 == 2:
 elif p1 ==3:
     choice_name = 'Scissor'
     print("User choice is:  "  + choice_name)
-print(f"I have {choice_name.price}")
+print(f"I have {choice_name}")
 
 print("\n Now its computer turn....")
 

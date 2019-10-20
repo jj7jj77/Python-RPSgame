@@ -31,9 +31,8 @@ elif (p2 == "2"):
     comp_choice_name = "Paper"
 else:
     comp_choice_name = "Scissor"
-   print("Computer choice is: " + comp_choice_name)
-    
-   print (choice_name + " V/S " + comp_choice_name)
+print("Computer choice is: " + comp_choice_name)
+print (choice_name + " V/S " + comp_choice_name)
 
 
 if (p1 == "Rock"):

@@ -9,16 +9,17 @@ print("Enter a numeral choice \n  1. Rock \n  2. Paper \n 3. Scissor \n")
 p1 = raw_input("Users Turn: ")
 
 if p1 == 1:
-    choice_name = 'Rock'
-    #print("rock")
+    choice_name = "rock"
+    print("rock")
 elif p1 == 2:
-    choice_name = 'Paper'
-        #print("paper")
-elif p1 ==3:
-    choice_name = 'Scissor'
-    print("User choice is:  "  + choice_name)
-print(f"I have {choice_name}")
+    choice_name = "paper"
+    print("paper")
+elif p1 == 3:
+    choice_name = "scissor"
+    #print("User choice is:  "  + choice_name)
+    #print(f"I have {choice_name}")
 
+'''
 print("\n Now its computer turn....")
 
 p2 = random.randint(1,3)
@@ -46,7 +47,7 @@ if p1 == "paper" and p2 =="scissor":
     print("player 1 lost")
 if p1 == "scissor" and p2 =="rock":
     print("player 1 lost")
- 
+ '''
  
  
  

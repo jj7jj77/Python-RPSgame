@@ -8,27 +8,25 @@ print("Here are the rules of playing Rock Paper Scissors Game: \n"
 print("Enter a numeral choice \n  1. Rock \n  2. Paper \n 3. Scissor \n")
 p1 = raw_input("Users Turn: ")
 
-if (p1 == 1):
-    choice_name = "rock"
-    print("rock")
-elif p1 == 2:
-    choice_name = "paper"
-    print("paper")
+if (p1 == "1"):
+    choice_name = "Rock"
+    #print("rock")
+elif (p1 == "2"):
+    choice_name = "Paper"
+    #print("paper")
 else:
-    choice_name = "scissor"   
-    print("scissor")
+    choice_name = "Scissor"   
+    #print("scissor")
 print("User choice is:  "  + choice_name)
-print(p1)
 
 
-'''
 print("\n Now its computer turn....")
 
 p2 = random.randint(1,3)
 
-if p2 == 1:
+if (p2 == "1"):
     comp_choice_name = 'Rock'
-elif p2 ==2:
+elif (p2 =="2"):
     comp_choice_name= 'Paper'
 else:
     comp_choice_name = 'Scissor'
@@ -36,20 +34,20 @@ else:
     print (choice_name+ " V/s " + comp_choice_name)
 
  
-if p1 == "Paper" and p2 == "Rock":
+if (p1 == "Paper" and p2 == "Rock"):
     print("player 1 wins")
-elif p1 == "Scissor" and p2 =="Paper":
+elif (p1 == "Scissor" and p2 == "Paper"):
     Print("player 1 wins")
 else:
     print("player 1 wins")
     
-if p1 == "Rock" and p2 =="Paper":
+if (p1 == "Rock" and p2 == "Paper"):
     print("player 1 lost . player 1 chose" +  choice_name)
-elif p1 == "paper" and p2 =="scissor":
+elif (p1 == "Paper" and p2 == "Scissor"):
     print("player 1 lost")
 else:
     print("player 1 lost")
- '''
+
  
  
  

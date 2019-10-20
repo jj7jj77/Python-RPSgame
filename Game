@@ -38,7 +38,7 @@ else:
 
 if (p1 == "Paper") and (p2 == "Rock"):
     print("player 1 wins.  Player 1 chose" +  choice_name + "and player 2 chose" + comp_choice_name)
-elif p1 = Paper and p2 = Scissor:
+elif ((p1 == "Paper") and (p2 == "Scissor")):
     print("player 1 lost. Player 1 chose" +  choice_name + "and player 2 chose" + comp_choice_name)
 elif (p1 == "Rock" and p2 == "Scissor"):
     print("player 1 wins. Player 1 chose" +  choice_name + "and player 2 chose" + comp_choice_name)

@@ -24,7 +24,7 @@ print("\n Now its computer turn....")
 
 list = [1,2,3]
 p2 = random.choice(list)
-print("p2")
+print(p2)
 
 '''
 if (p2 == "1"):

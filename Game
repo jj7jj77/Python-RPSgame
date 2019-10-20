@@ -21,10 +21,12 @@ print("User choice is:  "  + choice_name)
 
 
 print("\n Now its computer turn....")
+
 list = [1,2,3]
 p2 = random.choice(list)
+print("p2")
 
-
+'''
 if (p2 == "1"):
     comp_choice_name = "Rock"
 elif (p2 == "2"):
@@ -58,5 +60,5 @@ else:
         print("computer win")
     else:
         print("draw3")
-  
+  '''
     

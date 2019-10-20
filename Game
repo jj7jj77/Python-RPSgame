@@ -21,9 +21,9 @@ print("User choice is:  "  + choice_name)
 
 
 print("\n Now its computer turn....")
+list = [1,2,3]
+p2 = random.choice(list)
 
-p2 = random.choice(1,3)
-choice(['Rock', 'Paper','Scissor'])
 
 if (p2 == "1"):
     comp_choice_name = "Rock"

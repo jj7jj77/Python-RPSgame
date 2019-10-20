@@ -14,11 +14,11 @@ if p1 == 1:
 elif p1 == 2:
     choice_name = "paper"
     print("paper")
-elif p1 == 3:
-    choice_name = "scissor"
-    #print("User choice is:  "  + choice_name)
-    #print(f"I have {choice_name}")
-
+else:
+    choice_name = "scissor"   
+    #print("scissor")
+print("User choice is:  "  + choice_name)
+    
 '''
 print("\n Now its computer turn....")
 

@@ -34,21 +34,21 @@ else:
     print (choice_name+ " V/s " + comp_choice_name)
 
  
-if (p1 == "Paper" and p2 == "Rock"):
-    print("player 1 wins")
-elif (p1 == "Scissor" and p2 == "Paper"):
-    Print("player 1 wins")
-else:
-    print("player 1 wins")
-    
-if (p1 == "Rock" and p2 == "Paper"):
-    print("player 1 lost . player 1 chose" +  choice_name)
-elif (p1 == "Paper" and p2 == "Scissor"):
-    print("player 1 lost")
-else:
-    print("player 1 lost")
-
  
+if (p1 == "Paper" and p2 == "Rock"):
+    print("player 1 wins.  Player 1 chose" +  choice_name and "player 2 chose" + comp_choice_name)
+elif (p1 == "Paper" and p2 == "Scissor"):
+    print("player 1 lost. Player 1 chose" +  choice_name and "player 2 chose" + comp_choice_name)
+elif(p1 =="Rock" and p2 == "Scissor"):
+    print("player 1 wins. Player 1 chose" +  choice_name and "player 2 chose" + comp_choice_name)
+elif (p1 == "Rock" and p2 == "Paper"):
+    print("player 1 lost . Player 1 chose" +  choice_name and "player 2 chose" + comp_choice_name)
+elif (p1 == "Scissor" and p2 == "Paper"):
+    print("player 1 wins.  Player 1 chose" +  choice_name and "player 2 chose" + comp_choice_name)
+elif (p1 == "Scissor" and p2 == "Rock"):
+    print("player1 lost.  Player 1 chose" +  choice_name and "player 2 chose" + comp_choice_name)
+else:
+    print("It's a draw")
  
  
  

@@ -58,19 +58,5 @@ else:
     else:
         print("draw")
         
-        
-        
-'''
-elif (p1 == "Rock" and p2 == "Scissor"):
-    print("player 1 wins. Player 1 chose " +  choice_name + "and player 2 chose" + comp_choice_name)
-elif (p1 == "Rock" and p2 == "Paper"):
-    print("player 1 lost. Player 1 chose " +  choice_name + " and player 2 chose"  + comp_choice_name)
-elif (p1 == "Scissor") and (p2 == "Paper"):
-    print("player 1 wins. Player 1 chose " +  choice_name + " and player 2 chose " + comp_choice_name)
-elif (p1 == "Scissor" and p2 == "Rock"):
-    print("player1 lost. Player 1 chose " +  choice_name + " and player 2 chose " + comp_choice_name)
-else:
-    print("It's a draw. Player 1 chose " +  choice_name + " and player 2 chose " + comp_choice_name)
-'''    
     
-    
+   

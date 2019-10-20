@@ -16,7 +16,7 @@ elif p1 == 2:
     print("paper")
 else:
     choice_name = "scissor"   
-    #print("scissor")
+    print("scissor")
 print("User choice is:  "  + choice_name)
     
 '''
@@ -48,9 +48,3 @@ elif p1 == "paper" and p2 =="scissor":
 else:
     print("player 1 lost")
  '''
- 
- 
- 
- 
- 
- 

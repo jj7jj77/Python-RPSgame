@@ -24,9 +24,9 @@ print("\n Now its computer turn....")
 
 list = [1,2,3]
 p2 = random.choice(list)
-print(p2)
+#print(p2)
 
-'''
+
 if (p2 == "1"):
     comp_choice_name = "Rock"
 elif (p2 == "2"):
@@ -34,9 +34,9 @@ elif (p2 == "2"):
 else:
     comp_choice_name = "Scissor"
 print("Computer choice is: " + comp_choice_name) 
-print (choice_name + " V/S " + comp_choice_name)
+#print (choice_name + " V/S " + comp_choice_name)
 
-
+'''
 if (choice_name == "Rock"):
     if (comp_choice_name == "Paper"):
         print("computer wins")

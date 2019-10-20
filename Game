@@ -30,33 +30,32 @@ elif (p2 == "2"):
     comp_choice_name = "Paper"
 else:
     comp_choice_name = "Scissor"
-print("Computer choice is: " + comp_choice_name)
+print("Computer choice is: " + comp_choice_name) 
 print (choice_name + " V/S " + comp_choice_name)
 
 
 if (p1 == "Rock"):
     if (p2 == "Paper"):
         print("p2 wins")
-    elif(p2 == "Scissor"):
+    elif (p2 == "Scissor"):
         print("player 1 wins.")  #Player 1 chose " +  choice_name + "and player 2 chose" + comp_choice_name)
     else:
-        print("draw")
+        print("draw1")
 
-elif(p1 == "Paper"):
+elif (p1 == "Paper"):
     if (p2 == "Rock"):
         print("player 1 lost.")   #Player 1 chose " +  choice_name + "and player 2 chose" + comp_choice_name)
-    elif(p2 =="Scissor"):
+    elif (p2 =="Scissor"):
         print("p2 win")
     else:
-        print("draw")
+        print("draw2")
 
 else:
     if (p2 == "Paper"):
         print("player 1 win.")   #Player 1 chose " +  choice_name + "and player 2 chose" + comp_choice_name)
-    elif(p2 =="Rock"):
+    elif (p2 =="Rock"):
         print("p2 win")
     else:
-        print("draw")
-        
+        print("draw3")
+  
     
-   
